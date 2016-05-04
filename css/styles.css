@@ -1,0 +1,89 @@
+
+ body {
+ 	font-family:'Righteous', cursive;
+ 	background-image: url('../images/bluepoly.jpg');
+ 	text-align: center;
+ 	background-color:black;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ }
+ 
+    }
+ p{
+ 	color: white;
+ 	font-size: 20px ;
+ }
+.dropdown{
+	position: relative;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+ .dropdown-content{
+ 	display: none;
+ 	position: absolute;
+ 	background color:#0B74CB;
+ 	width:90%;
+ }
+
+ .dropdown-content a {
+ 	background-color:rgba(16,81,136,0.5); 
+ 	color:white;
+ 	
+ 	padding: 10px 16px;
+ 	text-decoration: none;
+ 	display: block;
+ }
+
+ .t_b {
+
+ 	background: rgba(5,89,160,0.5);
+ 	color:white;
+ 	margin-left: 10%;
+ 	margin-right: 10%;
+ 	padding: 5%;
+ 	padding-top: 2%; 
+ }
+
+ h1{
+ 	text-align: center;
+ 	color: white;
+ 	font-size: 50px;
+ }
+
+ ul{
+ 	list-style-type: none;
+ 	color:white;
+ 	font-size: 30px
+ }
+ li{
+ 	display: inline-block;
+ 	width: 20%;
+ 	text-align: center;
+ }
+
+h2{
+	text-align: center;
+	color:white ;
+	font-size:30px;
+}
+#slideshow {
+	background: rgba(5,89,160,0.5);
+	margin:50px auto;
+	position:relative;
+	width:500px;
+	height:500px;
+	padding:10px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5)
+}
+
+#slideshow > div{
+	position:absolute;
+	top:10px;
+	left:10px;
+	right:10px;
+	bottom:10px;
+
+}
