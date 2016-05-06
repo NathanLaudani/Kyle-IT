@@ -1,18 +1,52 @@
 
  body {
  	font-family:'Righteous', cursive;
- 	background-image: url('../images/bluepoly.jpg');
+ 	background-image: url('../kyleimages/bluepoly.jpg');
  	text-align: center;
  	background-color:black;
  	background-size: cover;
  	background-repeat: no-repeat;
  }
  
-    }
+ .myLinks{
+ 	color: #C0E2FF;
+ }
+ .myLinks:hover{
+ 	color: green;
+ }
+
+  .titleLink{
+ 	color: white;
+ }
+ .titleLink:hover{
+ 	color: white;
+ }
+
  p{
  	color: white;
  	font-size: 20px ;
  }
+
+ #images{
+	border:5px solid black;
+
+}
+
+
+/*slideshow*/
+.exampleSlider{
+	text-align: center;
+	display: block;
+	position:relative;
+}
+
+#sliderImage{
+	border:5px solid black;
+	outline:5px solid blue;
+	text-align: center;
+}
+
+/*dropdown*/
 .dropdown{
 	position: relative;
 }
@@ -52,6 +86,11 @@
  	color: white;
  	font-size: 50px;
  }
+ h2{
+ 	text-align: center;
+ 	color:#C0E2FF;
+ 	font-size: 40px;
+ }
 
  ul{
  	list-style-type: none;
@@ -64,26 +103,25 @@
  	text-align: center;
  }
 
-h2{
-	text-align: center;
-	color:white ;
-	font-size:30px;
-}
-#slideshow {
-	background: rgba(5,89,160,0.5);
-	margin:50px auto;
-	position:relative;
-	width:500px;
-	height:500px;
-	padding:10px;
-	box-shadow: 0 0 20px rgba(0,0,0,0.5)
+
+/*wires*/
+ol {
+    list-style-type: none;
+	position: relative;
+	left: -20px;
 }
 
-#slideshow > div{
-	position:absolute;
-	top:10px;
-	left:10px;
-	right:10px;
-	bottom:10px;
+ol li {
+	background: #0C0C0C;
+	border-radius: 5px;
+	border: 1px solid black;
+	margin: 3px;
+	padding: 0.4em;
+	font-size: 1em;
+	height: 16px;
+	font-family: Verdana, Arial, Sans-Serif;
+}
 
+ol .ui-selected {
+	background: #1CFFEA; color: white;
 }
