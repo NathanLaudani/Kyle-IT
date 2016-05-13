@@ -29,21 +29,34 @@
 
  #images{
 	border:5px solid black;
-
+}
+#vader{
+	position: absolute;
+	right:820px;
+	bottom:-142px;
+	z-index: -1;
 }
 
+#secret{
+	position: absolute;
+	right:300px;
+	bottom:-110px;
+	z-index: -1;
+}
 
 /*slideshow*/
 .exampleSlider{
 	text-align: center;
 	display: block;
 	position:relative;
+
 }
 
 #sliderImage{
 	border:5px solid black;
 	outline:5px solid blue;
-	text-align: center;
+	
+	
 }
 
 /*dropdown*/
