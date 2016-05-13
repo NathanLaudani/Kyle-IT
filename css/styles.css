@@ -32,15 +32,15 @@
 }
 #vader{
 	position: absolute;
-	right:820px;
-	bottom:-142px;
+	right:929px;
+	bottom:-85px;
 	z-index: -1;
 }
 
 #secret{
 	position: absolute;
 	right:300px;
-	bottom:-110px;
+	bottom:-80px;
 	z-index: -1;
 }
 
