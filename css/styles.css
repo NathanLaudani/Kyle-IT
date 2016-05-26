@@ -33,7 +33,7 @@
 #vader{
 	position: absolute;
 	right:929px;
-	bottom:-85px;
+	bottom:-78px;
 	z-index: -1;
 }
 
@@ -73,6 +73,7 @@
  	position: absolute;
  	background color:#0B74CB;
  	width:90%;
+
  }
 
  .dropdown-content a {
@@ -108,12 +109,13 @@
  ul{
  	list-style-type: none;
  	color:white;
- 	font-size: 30px
+ 	font-size: 28px
  }
  li{
  	display: inline-block;
  	width: 20%;
  	text-align: center;
+
  }
 
 

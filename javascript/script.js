@@ -2,6 +2,7 @@
 $(document).ready(function() {
   $('ol').sortable();
     //$('ol').selectable();
+    $( "#datepicker" ).datepicker();
 });
 
 $(function () {
